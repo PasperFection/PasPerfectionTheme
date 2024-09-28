@@ -1,0 +1,169 @@
+{
+    "schema": "https://raw.githubusercontent.com/microsoft/vscode/main/extensions/vscode-colorize-tests/test/colorize-fixtures/themes-schema.json",
+    "type": "light",
+    "colors": {
+        "editor.background": "#f0f8ff",
+        "editor.foreground": "#e6e6fa",
+        "editor.lineHighlightBackground": "#e6f2ff",
+        "editor.selectionBackground": "#d8bfd8",
+        "editor.wordHighlightBackground": "#e6e6fa",
+        "editor.wordHighlightStrongBackground": "#b0e0e6",
+        "editorCursor.foreground": "#e6e6fa",
+        "editorIndentGuide.background": "#e6e6fa",
+        "editorIndentGuide.activeBackground": "#4b0082",
+        "sideBar.background": "#e6f2ff",
+        "sideBar.foreground": "#000000",
+        "activityBar.background": "#4b0082",
+        "activityBar.foreground": "#ffffff",
+        "statusBar.background": "#4b0082",
+        "statusBar.foreground": "#ffffff",
+        "titleBar.activeBackground": "#4b0082",
+        "titleBar.activeForeground": "#ffffff",
+        "list.activeSelectionBackground": "#4b0082",
+        "list.activeSelectionForeground": "#ffffff",
+        "list.hoverBackground": "#e6f2ff",
+        "list.inactiveSelectionBackground": "#d8bfd8",
+        "input.background": "#f0f8ff",
+        "input.border": "#4b0082",
+        "button.background": "#4b0082",
+        "button.foreground": "#ffffff",
+        "dropdown.background": "#f0f8ff",
+        "dropdown.border": "#4b0082",
+        "panel.background": "#f0f8ff",
+        "panel.border": "#4b0082",
+        "badge.background": "#4b0082",
+        "badge.foreground": "#ffffff",
+        "terminal.background": "#f0f8ff",
+        "terminal.foreground": "#000000",
+        "terminal.ansiBlack": "#000000",
+        "terminal.ansiBlue": "#0000ff",
+        "terminal.ansiCyan": "#008b8b",
+        "terminal.ansiGreen": "#FF8C00",
+        "terminal.ansiMagenta": "#8b008b",
+        "terminal.ansiRed": "#8b0000",
+        "terminal.ansiWhite": "#f0f8ff",
+        "terminal.ansiYellow": "#808000"
+    },
+    "tokenColors": [
+        {
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "foreground": "#FF4C00"
+            }
+        },
+        {
+            "scope": [
+                "string",
+                "punctuation.definition.string"
+            ],
+            "settings": {
+                "foreground": "#000000"
+            }
+        },
+        {
+            "scope": [
+                "constant.numeric"
+            ],
+            "settings": {
+                "foreground": "#000000"
+            }
+        },
+        {
+            "scope": [
+                "keyword"
+            ],
+            "settings": {
+                "foreground": "#4b0082"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.function",
+                "support.function"
+            ],
+            "settings": {
+                "foreground": "#FF4400",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": [
+                "variable"
+            ],
+            "settings": {
+                "foreground": "#000000"
+            }
+        },
+        {
+            "scope": [
+                "storage.type",
+                "storage.modifier"
+            ],
+            "settings": {
+                "foreground": "#4b0082"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.type",
+                "entity.other.inherited-class"
+            ],
+            "settings": {
+                "foreground": "#FF8C00"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.tag",
+                "punctuation.definition.tag"
+            ],
+            "settings": {
+                "foreground": "#8b0000"
+            }
+        },
+        {
+            "scope": [
+                "entity.other.attribute-name"
+            ],
+            "settings": {
+                "foreground": "#4b0082"
+            }
+        },
+        {
+            "scope": [
+                "markup.heading"
+            ],
+            "settings": {
+                "foreground": "#000000",
+                "fontStyle": "bold"
+            }
+        },
+        {
+            "scope": "token.info-token",
+            "settings": {
+                "foreground": "#000000"
+            }
+        },
+        {
+            "scope": "token.warn-token",
+            "settings": {
+                "foreground": "#8b0000"
+            }
+        },
+        {
+            "scope": "token.error-token",
+            "settings": {
+                "foreground": "#8b0000"
+            }
+        },
+        {
+            "scope": "token.debug-token",
+            "settings": {
+                "foreground": "#4b0082"
+            }
+        }
+    ]
+}

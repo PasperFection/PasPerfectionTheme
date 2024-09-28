@@ -1,0 +1,116 @@
+{
+  "name": "Pasperfection Dark Theme",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#000000",
+    "editor.foreground": "#FFFFFF",
+    "editorCursor.foreground": "#FFFFFF",
+    "editor.lineHighlightBackground": "#000000",
+    "editor.selectionBackground": "#034972",
+    "sideBar.background": "#000000",
+    "sideBar.foreground": "#FFFFFF",
+    "activityBar.background": "#034972",
+    "activityBar.foreground": "#FFFFFF",
+    "statusBar.background": "#000000",
+    "statusBar.foreground": "#FFFFFF",
+    "titleBar.activeBackground": "#034972",
+    "titleBar.activeForeground": "#FFFFFF",
+    "editor.wordHighlightBackground": "#303030",
+    "editor.wordHighlightStrongBackground": "#034972",
+    "editorIndentGuide.background": "#1F1F1F",
+    "editorIndentGuide.activeBackground": "#034972",
+    "editorLineNumber.foreground": "#034972",
+    "editorLineNumber.activeForeground": "#FFFFFF",
+    "panel.background": "#000000",
+    "panel.border": "#000000",
+    "panelTitle.activeForeground": "#FFFFFF",
+    "panelTitle.inactiveForeground": "#FFFFFF",
+    "terminal.background": "#000000",
+    "terminal.foreground": "#FFFFFF",
+    "terminal.ansiBlack": "#000000",
+    "terminal.ansiBlue": "#00FF00",
+    "terminal.ansiCyan": "#FFFFFF",
+    "terminal.ansiGreen": "#00FF00",
+    "terminal.ansiMagenta": "#ff0000",
+    "terminal.ansiRed": "#FF0000",
+    "terminal.ansiWhite": "#FFFFFF",
+    "terminal.ansiYellow": "#FFFF00",
+    "editorWidget.background": "#000000",
+    "editorGutter.background": "#000000",
+    "debugToolBar.background": "#000000",
+    "debugTokenExpression.name": "#00FF00",
+    "diffEditor.insertedTextBackground": "#000000",
+    "diffEditor.removedTextBackground": "#000000",
+    "notificationCenter.border": "#00FF00",
+    "notificationsErrorIcon.foreground": "#FF0000"
+  },
+  "tokenColors": [
+    {
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "scope": ["string", "punctuation.definition.string"],
+      "settings": {
+        "foreground": "#ff0000"
+      }
+    },
+    {
+      "scope": ["constant.numeric"],
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": ["keyword"],
+      "settings": {
+        "foreground": "#00FF00"
+      }
+    },
+    {
+      "scope": ["entity.name.function", "support.function"],
+      "settings": {
+        "foreground": "#ff0000"
+      }
+    },
+    {
+      "scope": ["variable"],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "scope": ["storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#00FF00"
+      }
+    },
+    {
+      "scope": ["entity.name.type", "entity.other.inherited-class"],
+      "settings": {
+        "foreground": "#FFFFFF"
+      }
+    },
+    {
+      "scope": ["entity.name.tag", "punctuation.definition.tag"],
+      "settings": {
+        "foreground": "#00FF00"
+      }
+    },
+    {
+      "scope": ["entity.other.attribute-name"],
+      "settings": {
+        "foreground": "#FFFF00"
+      }
+    },
+    {
+      "scope": ["markup.heading"],
+      "settings": {
+        "foreground": "#00FF00",
+        "fontStyle": "bold"
+      }
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+    "name": "Pasperfection Light Theme",
+    "type": "light",
+    "colors": {
+        "editor.background": "#FFFFFF",
+        "editor.foreground": "#000000",
+        "editorCursor.foreground": "#000000",
+        "editor.lineHighlightBackground": "#E6F2FF",
+        "editor.selectionBackground": "#ADD6FF",
+        "sideBar.background": "#F3F3F3",
+        "sideBar.foreground": "#333333",
+        "activityBar.background": "#2C2C2C",
+        "activityBar.foreground": "#FFFFFF",
+        "statusBar.background": "#007ACC",
+        "statusBar.foreground": "#FFFFFF",
+        "titleBar.activeBackground": "#DDDDDD",
+        "titleBar.activeForeground": "#333333",
+        "editor.wordHighlightBackground": "#E8E8E8",
+        "editor.wordHighlightStrongBackground": "#CCCCCC",
+        "editorIndentGuide.background": "#D3D3D3",
+        "editorIndentGuide.activeBackground": "#939393",
+        "editorLineNumber.foreground": "#999999",
+        "editorLineNumber.activeForeground": "#333333",
+        "panel.background": "#FFFFFF",
+        "panel.border": "#80808059",
+        "panelTitle.activeForeground": "#333333",
+        "panelTitle.inactiveForeground": "#757575",
+        "terminal.background": "#FFFFFF",
+        "terminal.foreground": "#333333",
+        "terminal.ansiBlack": "#000000",
+        "terminal.ansiBlue": "#0451A5",
+        "terminal.ansiCyan": "#0598BC",
+        "terminal.ansiGreen": "#008000",
+        "terminal.ansiMagenta": "#BC05BC",
+        "terminal.ansiRed": "#A31515",
+        "terminal.ansiWhite": "#555555",
+        "terminal.ansiYellow": "#795E26",
+        "editorWidget.background": "#F3F3F3",
+        "editorGutter.background": "#FAFAFA",
+        "debugToolBar.background": "#F0F0F0",
+        "debugTokenExpression.name": "#0000FF",
+        "diffEditor.insertedTextBackground": "#C8E6C9",
+        "diffEditor.removedTextBackground": "#FFCDD2",
+        "notificationCenter.border": "#007ACC",
+        "notificationsErrorIcon.foreground": "#A31515"
+    },
+    "tokenColors": [
+        {
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
+            "settings": {
+                "foreground": "#008000"
+            }
+        },
+        {
+            "scope": [
+                "string",
+                "punctuation.definition.string"
+            ],
+            "settings": {
+                "foreground": "#A31515"
+            }
+        },
+        {
+            "scope": [
+                "constant.numeric"
+            ],
+            "settings": {
+                "foreground": "#098658"
+            }
+        },
+        {
+            "scope": [
+                "keyword"
+            ],
+            "settings": {
+                "foreground": "#0000FF"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.function",
+                "support.function"
+            ],
+            "settings": {
+                "foreground": "#795E26"
+            }
+        },
+        {
+            "scope": [
+                "variable"
+            ],
+            "settings": {
+                "foreground": "#001080"
+            }
+        },
+        {
+            "scope": [
+                "storage.type",
+                "storage.modifier"
+            ],
+            "settings": {
+                "foreground": "#0000FF"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.type",
+                "entity.other.inherited-class"
+            ],
+            "settings": {
+                "foreground": "#267F99"
+            }
+        },
+        {
+            "scope": [
+                "entity.name.tag",
+                "punctuation.definition.tag"
+            ],
+            "settings": {
+                "foreground": "#800000"
+            }
+        },
+        {
+            "scope": [
+                "entity.other.attribute-name"
+            ],
+            "settings": {
+                "foreground": "#FF0000"
+            }
+        },
+        {
+            "scope": [
+                "markup.heading"
+            ],
+            "settings": {
+                "foreground": "#800000",
+                "fontStyle": "bold"
+            }
+        }
+    ]
+}
