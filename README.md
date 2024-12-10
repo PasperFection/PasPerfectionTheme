@@ -42,8 +42,7 @@ For the best experience with PasPerfection, we recommend the following VS Code s
 ### Setup
 1. Clone the repository:
    ```
-   git clone https://github.com/
-   PasPerfection/pasperfection-theme.git
+   git clone https://github.com/PasPerfection/PasperFectionTheme.git
    ```
 2. Install dependencies:
    ```
